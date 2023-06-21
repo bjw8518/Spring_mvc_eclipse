@@ -15,7 +15,7 @@
 
 <div id="home_msg">
 	<p>
-		kuzuro board
+		게시판
 	</p>
 </div>
 
