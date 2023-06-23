@@ -8,9 +8,29 @@
 <script src="${pageContext.request.contextPath}/resources/js/main.js"></script>
 </head>
 <body>
+<div id="wrapper">
+        <header>
+                    <h1>Real<span>Index Page</span></h1>
+                </header>
+                <article>
+                    <h2><a href="login">로그인</a></h2>
+                </article>
+                
+                
+                <article>
+                    <h2><a href="/board/listPageSearch?num=1">글 목록</a></h2>
+                </article>
+                
+        </div>
 
+<!-- 
 <div id="nav">
-	<%@ include file="include/nav.jsp" %>
+	/*
+	< % @
+	include file="include/nav.jsp"
+	%
+	>
+	*/
 </div>
 
 <div id="home_msg">
@@ -18,6 +38,7 @@
 		게시판
 	</p>
 </div>
+ -->
 
 <!-- 
 <h1>
