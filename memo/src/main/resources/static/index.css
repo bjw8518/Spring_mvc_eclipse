@@ -1,0 +1,21 @@
+.memo-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.memo {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.close-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
